@@ -1,0 +1,1 @@
+{"version":3,"file":"style.css","sources":["style.scss","styles/global.scss","styles/header.scss"],"sourcesContent":["@import \"styles/global.scss\";\n\n@import \"styles/header.scss\";\n","body{\n  width: 1250px;\n  margin-left: auto;\n  margin-right: auto;\n}",""],"names":[],"mappings":"ACAA,AAAA,IAAI,CAAA;EACF,KAAK,EAAE,MAAM;EACb,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI,GACnB"}
