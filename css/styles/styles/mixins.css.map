@@ -1,0 +1,1 @@
+{"version":3,"file":"mixins.css","sources":["styles/mixins.scss"],"sourcesContent":["@mixin margin-auto{\n  margin-left: auto;\n  margin-right: auto;\n}\n\n@mixin little-heading {\n  font-family: $bolt-font;\n  font-size: 17px;\n  line-height: 24px;\n}"],"names":[],"mappings":""}

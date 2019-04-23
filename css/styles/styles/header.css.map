@@ -1,1 +1,1 @@
-{"version":3,"names":[],"mappings":"","sources":["styles/header.scss"],"sourcesContent":[""],"file":"header.css"}
+{"version":3,"file":"header.css","sources":["styles/header.scss"],"sourcesContent":[".main-header{\n  background-color: white;\n  color: black;\n  a{\n    \n  }\n}"],"names":[],"mappings":"AAAA,AAAA,YAAY,CAAA;EACV,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,KAAK,GAIb"}
