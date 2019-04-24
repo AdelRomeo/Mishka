@@ -8,3 +8,9 @@
   font-size: 17px;
   line-height: 24px;
 }
+
+@mixin big-heading {
+  font-family: $bolt-font;
+  font-size: 53px;
+  line-height: 57px;
+}
