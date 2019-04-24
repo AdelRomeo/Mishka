@@ -4,7 +4,12 @@
 body {
   width: 1250px;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  font-family: Open Sans Bold, Arial, sans-serif; }
+
+main {
+  margin-left: 100px;
+  margin-right: 100px; }
 
 .main-header {
   position: relative;
@@ -55,5 +60,78 @@ body {
 
 .basket {
   margin-left: 33px; }
+
+.sweety {
+  background: #f9f9f9 url("../../img/hero-desktop.jpg") no-repeat;
+  background-position-x: center;
+  padding-top: 20px;
+  position: relative;
+  margin-bottom: 20px; }
+  .sweety h2 {
+    font-family: Open Sans Bold, Arial, sans-serif;
+    font-size: 53px;
+    line-height: 57px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    text-align: center;
+    margin-top: 120px; }
+  .sweety img {
+    position: absolute;
+    bottom: -20px; }
+
+.sweety--link {
+  font-family: Open Sans Bold, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-right: 60px; }
+
+.sweety--wrape-container {
+  display: flex; }
+
+.sweety--info-delivery {
+  margin-left: 440px;
+  font-family: Open Sans Regular, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: #444444; }
+
+.sweety--bottom-sections {
+  display: flex;
+  justify-content: space-between;
+  width: 1050px;
+  margin-top: 350px; }
+
+.sweety--bottom-section1,
+.sweety--bottom-section2 {
+  position: relative;
+  background-position: 20px 100px;
+  height: 120px;
+  width: 50%; }
+  .sweety--bottom-section1 span,
+  .sweety--bottom-section2 span {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-left: 37px;
+    margin-top: 30px;
+    display: block;
+    width: 140px; }
+  .sweety--bottom-section1 img,
+  .sweety--bottom-section2 img {
+    position: absolute;
+    right: 35px;
+    top: 30px; }
+
+.sweety--bottom-section1 {
+  background: #63D1BB; }
+
+.sweety--bottom-section2 {
+  background: #56C3B2; }
 
 /*# sourceMappingURL=style.css.map */

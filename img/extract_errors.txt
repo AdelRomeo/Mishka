@@ -1,0 +1,1 @@
+[Wed Apr 24 2019 21:59:12 GMT+0700 (RTZ 6 (зима))] Layer "zigzag-line-desktop.svg": Duplicate path: zigzag-line-desktop.svg
