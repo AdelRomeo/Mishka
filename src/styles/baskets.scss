@@ -1,0 +1,76 @@
+.baskets{
+  position: relative;
+  background: url("../../img/triple-set-desktop.png") no-repeat right top;
+  .baskets--product-week{
+    position: absolute;
+    color: #63d1bb;
+    font-family: $bolt-font;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: bold;
+    width: 70px;
+    text-align: center;
+    top: 83px;
+    left: 45px;
+  }
+}
+
+.baskets--info{
+  display: inline-block;
+  margin-left: 175px;
+  width: 525px;
+  margin-top: 30px;
+  h2{
+    @include big-heading;
+  }
+  p{
+    width: 282px;
+    font-size: 17px;
+    line-height: 30px;
+    color: #6B6B6B;
+    margin-bottom: 40px;
+  }
+  table{
+    color: #6B6B6B;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+    tr{
+      td{
+        border-bottom: 1px solid #ECECEC;
+        padding: 12px 0px;
+        padding-right: 30px;
+      }
+    }
+  }
+}
+
+.baskets--order{
+  margin-left: 175px;
+  font-family: $bolt-font;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  width: 292px;
+  span{
+    font-family: Open Sans Bold, Arial, sans-serif;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  button{
+    width: 290px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px 0px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+
+.baskets--bottom-line{
+  margin-top: 60px;
+}
+
