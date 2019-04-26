@@ -1,0 +1,31 @@
+.about{
+  h2{
+    @include big-heading;
+    margin-left: 175px;
+    margin-top: 60px;
+  }
+}
+
+.about--list{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 175px;
+  list-style: none;
+  width: 700px;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.about--item{
+  font-family: $bolt-font;
+  font-weight: bold;
+  width: 50%;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 35px;
+}
+
+.about--item:nth-child(1){
+
+}

@@ -199,4 +199,29 @@ main {
 .baskets--bottom-line {
   margin-top: 60px; }
 
+.about h2 {
+  font-family: Open Sans Bold, Arial, sans-serif;
+  font-size: 53px;
+  line-height: 57px;
+  margin-left: 175px;
+  margin-top: 60px; }
+
+.about--list {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 175px;
+  list-style: none;
+  width: 700px;
+  flex-wrap: wrap;
+  padding: 0; }
+
+.about--item {
+  font-family: Open Sans Bold, Arial, sans-serif;
+  font-weight: bold;
+  width: 50%;
+  font-size: 20px;
+  line-height: 22px;
+  margin-bottom: 35px; }
+
 /*# sourceMappingURL=style.css.map */
