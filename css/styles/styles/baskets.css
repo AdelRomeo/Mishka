@@ -1,0 +1,8 @@
+.baskets {
+  background: url("../../img/triple-set-desktop.png") no-repeat right top; }
+  .baskets span {
+    display: inline-block;
+    color: #63d1bb;
+    margin-top: 60px; }
+
+/*# sourceMappingURL=baskets.css.map */
