@@ -224,4 +224,64 @@ main {
   line-height: 22px;
   margin-bottom: 35px; }
 
+.review {
+  position: relative;
+  background: url("../../img/review.png") no-repeat;
+  margin-top: 80px;
+  padding-left: 175px;
+  padding-top: 40px;
+  margin-bottom: 55px; }
+  .review h2 {
+    font-family: Open Sans Bold, Arial, sans-serif;
+    font-size: 53px;
+    line-height: 57px; }
+  .review p {
+    font-family: Open Sans Regular, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 30px;
+    width: 772px; }
+
+.review--write {
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  background-color: white;
+  border: 2px solid black;
+  padding: 15px 0px;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 175px; }
+
+.review--client-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px; }
+
+.review--client-name {
+  font-family: Open Sans Bold, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold; }
+
+.review--client-address {
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 90px; }
+
+.review--nav-arrow {
+  position: absolute;
+  width: 175px;
+  right: -10px;
+  top: 300px; }
+  .review--nav-arrow img {
+    padding: 15px;
+    cursor: pointer; }
+
+.review--bottom-line {
+  position: absolute;
+  left: 0px;
+  bottom: -55px; }
+
 /*# sourceMappingURL=style.css.map */
