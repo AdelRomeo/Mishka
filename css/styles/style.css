@@ -230,7 +230,7 @@ main {
   margin-top: 80px;
   padding-left: 175px;
   padding-top: 40px;
-  margin-bottom: 55px; }
+  margin-bottom: 80px; }
   .review h2 {
     font-family: Open Sans Bold, Arial, sans-serif;
     font-size: 53px;
@@ -282,6 +282,38 @@ main {
 .review--bottom-line {
   position: absolute;
   left: 0px;
-  bottom: -55px; }
+  bottom: -80px; }
+
+.contacts {
+  display: flex;
+  padding-top: 70px;
+  padding-left: 175px; }
+
+.contacts-address {
+  position: relative; }
+  .contacts-address h2 {
+    font-family: Open Sans Bold, Arial, sans-serif;
+    font-size: 53px;
+    line-height: 57px; }
+
+.contacts-flag {
+  position: absolute;
+  left: -50px; }
+
+.contacts-mail {
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  display: inline-block; }
+  .contacts-mail span {
+    display: inline-block;
+    margin-left: 25px;
+    border-bottom: 2px solid #62D1BA; }
+
+.contacts--location {
+  display: flex; }
+  .contacts--location p {
+    margin: 0px;
+    width: 240px; }
 
 /*# sourceMappingURL=style.css.map */
