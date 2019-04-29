@@ -290,7 +290,8 @@ main {
   padding-left: 175px; }
 
 .contacts-address {
-  position: relative; }
+  position: relative;
+  margin-right: 60px; }
   .contacts-address h2 {
     font-family: Open Sans Bold, Arial, sans-serif;
     font-size: 53px;
@@ -330,5 +331,21 @@ main {
   line-height: 20px;
   font-weight: bold;
   cursor: pointer; }
+
+.main-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F1F1F1;
+  margin-top: 100px;
+  padding: 50px 100px; }
+
+.main-footer--social a {
+  margin: 15px; }
+
+.main-footer--R {
+  font-size: 18px;
+  line-height: 19px;
+  font-weight: bold; }
 
 /*# sourceMappingURL=style.css.map */
