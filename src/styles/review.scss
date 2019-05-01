@@ -5,6 +5,7 @@
   padding-left: 175px;
   padding-top: 40px;
   margin-bottom: 80px;
+  overflow: hidden;
   h2{
     @include big-heading;
   }
@@ -13,6 +14,16 @@
     font-size: 17px;
     line-height: 30px;
     width: 772px;
+  }
+}
+
+.review--container{
+  width: 2550px;
+  display: flex;
+  transition: all ease 1s;
+  //margin-left: -872px;
+  &>div{
+    margin-right: 175px;
   }
 }
 
@@ -52,14 +63,33 @@
   width: 175px;
   right: -10px;
   top: 300px;
-  img{
-    padding: 15px;
-    cursor: pointer;
-  }
 }
 
 .review--bottom-line{
   position: absolute;
   left: 0px;
   bottom: -80px;
+}
+
+.review--btn-left,
+.review--btn-right{
+  transition: all ease 0.2s;
+  position: absolute;
+  padding: 15px;
+  cursor: pointer;
+  display: block;
+}
+
+.review--btn-left{
+  left: 5px;
+  &:hover{
+    left: 0px;
+  }
+}
+
+.review--btn-right{
+  right: 5px;
+  &:hover{
+    right: 0px;
+  }
 }
