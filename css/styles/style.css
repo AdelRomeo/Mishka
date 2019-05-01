@@ -230,7 +230,8 @@ main {
   margin-top: 80px;
   padding-left: 175px;
   padding-top: 40px;
-  margin-bottom: 80px; }
+  margin-bottom: 80px;
+  overflow: hidden; }
   .review h2 {
     font-family: Open Sans Bold, Arial, sans-serif;
     font-size: 53px;
@@ -240,6 +241,13 @@ main {
     font-size: 17px;
     line-height: 30px;
     width: 772px; }
+
+.review--container {
+  width: 2550px;
+  display: flex;
+  transition: all ease 1s; }
+  .review--container > div {
+    margin-right: 175px; }
 
 .review--write {
   position: absolute;
@@ -275,14 +283,29 @@ main {
   width: 175px;
   right: -10px;
   top: 300px; }
-  .review--nav-arrow img {
-    padding: 15px;
-    cursor: pointer; }
 
 .review--bottom-line {
   position: absolute;
   left: 0px;
   bottom: -80px; }
+
+.review--btn-left,
+.review--btn-right {
+  transition: all ease 0.2s;
+  position: absolute;
+  padding: 15px;
+  cursor: pointer;
+  display: block; }
+
+.review--btn-left {
+  left: 5px; }
+  .review--btn-left:hover {
+    left: 0px; }
+
+.review--btn-right {
+  right: 5px; }
+  .review--btn-right:hover {
+    right: 0px; }
 
 .contacts {
   display: flex;
