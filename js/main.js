@@ -1,29 +1,42 @@
-function LeftSlyder() {
-    let btnLeft = document.querySelector(".review--btn-left");
+let marchange = 0;
 
-}
-
-let marLeft = 0;
-
+//левая кнопка
 document.querySelector(".review--btn-left").onclick = function () {
-    marLeft = marLeft - 942;
+    marchange = marchange - 942;
     let container = document.querySelector(".review--container");
-    container.style.marginLeft = marLeft + "px";
+    container.style.marginLeft = marchange + "px";
 
-    if (marLeft == -1884){
-        let a = document.querySelector(".review--btn-left");
-        a.style.display = "none";
+    //проверка максимального марджина, скрытие левой кнопки
+    if (marchange == -1884){
+        let bigMar = document.querySelector(".review--btn-left");
+        bigMar.style.display = "none";
     }
-    console.log(marLeft);
+    //показ правой кнопки
+    if (marchange !== 0){
+        let bigMar = document.querySelector(".review--btn-right");
+        bigMar.style.display = "block";
+    }
 }
 
+//правая кнопка
 document.querySelector(".review--btn-right").onclick = function () {
-    marLeft = marLeft + 942;
+    marchange = marchange + 942;
     let container = document.querySelector(".review--container");
-    container.style.marginLeft = marLeft + "px";
-    if (marLeft !== -1884){
-        let a = document.querySelector(".review--btn-left");
-        a.style.display = "block";
+    container.style.marginLeft = marchange + "px";
+
+    //проверка максимального марджина, показ левой кнопки
+    if (marchange !== -1884){
+        let bigMar = document.querySelector(".review--btn-left");
+        bigMar.style.display = "block";
     }
-    console.log(marLeft);
+    //скрытие правой кнопки
+    if (marchange == 0){
+        let bigMar = document.querySelector(".review--btn-right");
+        bigMar.style.display = "none";
+    }
 }
+
+
+//всплывающее окно оправки отзыва
+document.querySelector()
+
