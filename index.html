@@ -99,7 +99,7 @@
             <button class="review--write">Написать</button>
             <h2>Отзывы</h2>
             <div class="review--container">
-                <div>
+                <div class="review--list">
                     <p>Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у
                         популярных истнамамочек. В отчаянии, я накупила акссесуаров и игрушек в Мишке, и мои фотографии
                         сразу стали болле стильными, а также набирают больше лайков!</p>
@@ -108,14 +108,14 @@
                         <span class="review--client-address">@misssiskras</span>
                     </div>
                 </div>
-                <div>
+                <div class="review--list">
                     <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     <div class="review--client-info">
                         <span class="review--client-name">Анастасия Красильникова</span>
                         <span class="review--client-address">@misssiskras</span>
                     </div>
                 </div>
-                <div>
+                <div class="review--list">
                     <p>Я молодая мама, но все равно фотографии не набирали и близко такого количества лайков, как у
                         популярных истнамамочек. В отчаянии, я накупила акссесуаров и игрушек в Мишке, и мои фотографии
                         сразу стали болле стильными, а также набирают больше лайков!</p>
@@ -131,11 +131,22 @@
                 </div>
                 <img src="img/zigzag-line-desktop.png" alt="line" class="review--bottom-line">
             <div class="review--message">
-                <textarea></textarea>
+                <textarea class="review--mess-area"></textarea>
                 <input type="text" class="review--mess-name" placeholder="Введите Имя"><br>
                 <input type="text" class="review--mess-mail" placeholder="Введите E-mail">
                 <button class="review--mess-btn">Отправить</button>
             </div>
+
+            <template class="tempLate">
+                <div class="review--list">
+                    <p></p>
+                    <div class="review--client-info">
+                        <span class="review--client-name"></span>
+                        <span class="review--client-address"></span>
+                    </div>
+                </div>
+            </template>
+
         </div>
         <div class="contacts">
             <div class="contacts-address">
