@@ -60,11 +60,9 @@ document.querySelector(".review--mess-btn").onclick = function commAdd() {
     let tempLate = document.querySelector(".tempLate").content.querySelector(".review--list");
 
     //добавление эелемента
-    for (i = 0; i < 1; i++){
-        let element = tempLate.cloneNode(true);
-        element.children[0].textContent = messArea;
-        element.children[1].children[0].textContent = messName;
-        element.children[1].children[1].textContent = messMail;
-        reviewContainer.appendChild(element);
-    }
+    let element = tempLate.cloneNode(true);
+    element.children[0].textContent = messArea;
+    element.children[1].children[0].textContent = messName;
+    element.children[1].children[1].textContent = messMail;
+    reviewContainer.appendChild(element);
 }
