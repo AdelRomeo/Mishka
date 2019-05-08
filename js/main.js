@@ -59,7 +59,7 @@ document.querySelector(".review--mess-btn").onclick = function commAdd() {
 
     let tempLate = document.querySelector(".tempLate").content.querySelector(".review--list");
 
-    //добавление эелемента
+    //добавление элемента
     let element = tempLate.cloneNode(true);
     element.children[0].textContent = messArea;
     element.children[1].children[0].textContent = messName;
