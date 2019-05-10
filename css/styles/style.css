@@ -427,4 +427,94 @@ main {
     position: absolute;
     bottom: -20px; }
 
+.catalog-list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 130px; }
+
+.catalog-item {
+  max-width: 315px;
+  height: 670px;
+  border: 1px solid #ECECEC;
+  position: relative; }
+  .catalog-item::before {
+    content: "";
+    width: 255px;
+    height: 1px;
+    background-color: #ECECEC;
+    position: absolute;
+    bottom: 70px;
+    left: 30px; }
+
+.catalog-info {
+  padding-left: 30px;
+  padding-right: 30px; }
+  .catalog-info h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Open Sans Bold, Arial, sans-serif;
+    margin-bottom: -10px; }
+  .catalog-info p {
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    color: #444444; }
+  .catalog-info span {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Open Sans Bold, Arial, sans-serif; }
+
+.catalog-coast {
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 20px; }
+
+.catalog-video {
+  margin-top: 57px;
+  position: relative;
+  display: flex;
+  border: 1px solid #ECECEC;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.catalog-play {
+  position: absolute;
+  left: 290px;
+  top: 190px; }
+
+.catalog--info-video {
+  position: relative;
+  padding-left: 60px;
+  padding-top: 80px; }
+  .catalog--info-video img {
+    position: absolute;
+    top: 50px; }
+  .catalog--info-video h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+    font-family: Open Sans Bold, Arial, sans-serif;
+    width: 150px; }
+  .catalog--info-video p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #444444;
+    width: 230px; }
+  .catalog--info-video button {
+    width: 230px;
+    margin-top: 40px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px 0px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: bold;
+    cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
